@@ -7,9 +7,14 @@ public class Knife extends Tool{
 
     }
 
-    @Override
+    /*@Override
     public void work() {
-        if (workable != null) workable.work();
+        workable.work();
+        uniqueWork();
+    }*/
+
+    @Override
+    public void uniqueWork() {
         System.out.println("Snak-snak");
     }
 }

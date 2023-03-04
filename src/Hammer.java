@@ -8,10 +8,15 @@ public class Hammer extends Tool{
 
     }
 
-    @Override
+    /*@Override
     public void work() {
-        if (workable != null) workable.work();
-        System.out.println("Knock-knock");
+        workable.work();
+        uniqueWork();
         
+    }*/
+
+    @Override
+    public void uniqueWork() {
+        System.out.println("Knock-knock");
     }
 }

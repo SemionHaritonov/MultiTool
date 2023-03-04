@@ -7,9 +7,14 @@ public class Screwdriver extends Tool {
         super();
     }
 
-    @Override
+    /*@Override
     public void work() {
-        if (workable != null) workable.work();
+        workable.work();
+        uniqueWork();
+    }*/
+
+    @Override
+    public void uniqueWork() {
         System.out.println("Vodka + Orange Juice");
     }
 }

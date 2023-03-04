@@ -11,7 +11,12 @@ public abstract class Tool implements Workable{
 
     @Override
     public void work() {
-        workable.work();
+        uniqueWork();
+        if (workable != null) {
+            workable.work();
+        }
     }
+
+    abstract public void uniqueWork();
 
 }
